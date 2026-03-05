@@ -1,27 +1,50 @@
-# Angular18CRUDLocalStorage
+<# Angular 18 CRUD Application – LocalStorage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.21.
+## 📌 Project Overview
+This project demonstrates a fully functional CRUD (Create, Read, Update, Delete) application built using Angular 18 with standalone components.  
 
-## Development server
+Data persistence is handled using the browser's LocalStorage API instead of a backend server.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+This project was built as part of hands-on practice to strengthen frontend architecture and state management concepts.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🚀 Features
+- Add new records
+- View list of records
+- Edit existing records
+- Delete records
+- Data persistence using LocalStorage
+- Clean component-based structure
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 🛠 Tech Stack
+- Angular 18 (Standalone Components)
+- TypeScript
+- Bootstrap 5
+- LocalStorage API
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🧠 Concepts Practiced
+- Component communication
+- Two-way data binding
+- Form handling
+- Service-based data management
+- CRUD architecture design
+- Separation of concerns
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## ▶️ How to Run
 
-## Further help
+```bash
+npm install
+ng serve
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Open: http://localhost:4200
+
+👩‍💻 Author
+
+Developed by Shobha Reddy Revuri as part of full-stack learning journey.
