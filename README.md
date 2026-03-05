@@ -1,29 +1,74 @@
-# Angular 18 CRUD - LocalStorage
+# Angular 18 CRUD Application – LocalStorage
 
 ## 📌 Project Overview
-This project demonstrates a CRUD (Create, Read, Update, Delete) application built using Angular 18.  
-Data persistence is handled using the browser's LocalStorage API.
+This project demonstrates a fully functional CRUD (Create, Read, Update, Delete) application built using Angular 18 with standalone components.  
 
-## 🚀 Tech Stack
+Data persistence is handled using the browser's LocalStorage API instead of a backend server.
+
+This project was built as part of hands-on practice to strengthen frontend architecture and state management concepts.
+
+---
+
+## 🚀 Features
+- Add new records
+- View list of records
+- Edit existing records
+- Delete records
+- Data persistence using LocalStorage
+- Clean component-based structure
+
+---
+
+## 🛠 Tech Stack
 - Angular 18 (Standalone Components)
 - TypeScript
 - Bootstrap 5
 - LocalStorage API
 
-## ✨ Features
-- Add new records
-- Edit existing records
-- Delete records
-- Form validation
-- Persistent data using LocalStorage
+---
+
+## 🧠 Concepts Practiced
+- Component communication
+- Two-way data binding
+- Form handling
+- Service-based data management
+- CRUD architecture design
+- Separation of concerns
+
+---
 
 ## 📂 Project Structure
-- Components organized by feature
-- Service layer for LocalStorage handling
-- Clean and modular structure
+src/
+├── app/
+│ ├── components/
+│ ├── services/
+│ └── models/
 
-## 🛠 Setup Instructions
+---
+
+## ▶️ How to Run
+
 ```bash
 npm install
-npm start
+ng serve
 ```
+
+Open: http://localhost:4200
+
+---
+
+## 📈 Future Enhancements
+
+Replace LocalStorage with ASP.NET Core Web API
+
+Add validation and error handling
+
+Implement authentication
+
+Add unit testing
+
+---
+
+## 👩‍💻 Author
+
+Developed by Shobha Reddy Revuri as part of full-stack learning journey.
